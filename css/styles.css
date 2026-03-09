@@ -126,6 +126,13 @@ h1 {
     left: 0;
 }
 
+.container-lists{
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+
+}
+
 @media (max-width: 600px) {
     .main-container { 
         flex-direction: column; 
